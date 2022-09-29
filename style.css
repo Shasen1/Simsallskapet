@@ -2,7 +2,11 @@ header{
     display: flex;
     background-color: green;
 }
-
+.loggIn{
+    display: flex;
+    align-content: row;
+    align-items:flex-end;
+}
 body{
 
     background-color:yellow;
@@ -21,11 +25,74 @@ body{
 .divTvå{
 
     display: flex;
-    flex-direction:column;
+    flex-direction:row;
     align-self: flex-end;
+    align-content: center;
+    flex-wrap: wrap;
     background-color:blue;
 }
 
-form{
-    background-color: white;
+.rutaEtt{
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+
+    margin-right: 10px;
+    margin-left: 10vw;
+    margin-bottom: 2vw;
+    margin-top: 5px;
+
+    width: 30vw;
+    height: 20vw;
+
+    background-color: grey;
+
+}
+.rutaTvå{
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+
+    margin-right: 10px;
+    margin-left: 4vw;
+    margin-bottom: 2vw;
+    margin-top: 5px;
+
+    width: 30vw;
+    height: 20vw;
+
+    background-color: grey;
+
+}
+.rutaTre{
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+
+    margin-right: 10px;
+    margin-left: 10vw;
+    margin-bottom: 2vw;
+    margin-top: 5px;
+
+    width: 30vw;
+    height: 20vw;
+
+    background-color: grey;
+
+}
+.rutaFyra{
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+
+    margin-right: 10px;
+    margin-left: 4vw;
+    margin-bottom: 2vw;
+    margin-top: 5px;
+
+    width: 30vw;
+    height: 20vw;
+
+    background-color: grey;
+
 }
