@@ -25,3 +25,7 @@ body{
     align-self: flex-end;
     background-color:blue;
 }
+
+form{
+    background-color: white;
+}
