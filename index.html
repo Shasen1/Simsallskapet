@@ -8,17 +8,27 @@
     <title>Simmsällskapet</title>
 </head>
 <body>
-    <header>
-        <h2>Simmsällskapet Kunden</h2>
-    </header>
-    <div></div>
-    <h3>blablabla</h3>
-    <p>aksjdlaksdjav kj lkj lkj lkjalksjdasiojdkl jkjåpasjdlköadjlmlnca akjdkljds </p>
-    </div>
-    <div>
-        <p>advafkas klajsdklasjd</p>
-    </div>    
+    <h1>Simmsällskapet</h1>
+    <div class="container">
+        <div class = "regler">
+            <H3>Regler</H3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam doloremque obcaecati nesciunt impedit, tempora porro corporis voluptate repellat esse ullam? Id nobis eum odio deleniti similique laborum illo, natus sit.</p>
+
+        </div>
+        <div class="ruta">
+            <h2 id="välkommenText"> Logga in</h2>
+            <p id="output"></p>
+            <div class="loggIn">
+                
+                Användarnamn: <input type="text" id="användarNamn"><br>
+                Lösenord: <input type="password" id="lösenOrd">
     
+                <button onclick="inputFunction()">Logga in</button>
+            </div>
+            <button id="loggUt" onclick="loggaUt()" >loggaUt</button>
+        </div>
+        
+    </div>
     
 </body>
 <script src="script.js"></script>
