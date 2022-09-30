@@ -8,36 +8,26 @@
     <title>Simmsällskapet</title>
 </head>
 <body>
-    <header>
-        <h2>Simmsällskapet Kunden</h2>
-        <div class="loggIn">
-            Användarnamn: <input type="text" id="användarNamn"><br>
-            Lösenord: <input type="text" id="lösenOrd">
-
-            <button onclick="inputFunction()"></button>
-            <p id="output"></p>
-        </div>
-    </header>
+    <h1>Simmsällskapet</h1>
     <div class="container">
-        <div class="divEtt">
-            <h3>blablabla</h3>
-            <p>aksjdlaksdjav kj lkj lkj lkjalksjdasiojdkl jkjåpasjdlköadjlmlnca akjdkljds </p>
+        <div class = "regler">
+            <H3>Regler</H3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam doloremque obcaecati nesciunt impedit, tempora porro corporis voluptate repellat esse ullam? Id nobis eum odio deleniti similique laborum illo, natus sit.</p>
+
         </div>
-        <div class="divTvå">
-            <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit aliquam error nostrum vitae aut suscipit minima debitis repudiandae porro aperiam autem non corrupti eligendi similique, blanditiis beatae facilis possimus nemo?</p>
-            <div class="rutaEtt">
-                <p>asdasdasdasdkaljfhafhöjlasdhqioöwhasdh ihdoia h dkaj hkj ahd uhe kjhdkja iugajldbas</p>
+        <div class="ruta">
+            <h2 id="välkommenText"> Logga in</h2>
+            <p id="output"></p>
+            <div class="loggIn">
+                
+                Användarnamn: <input type="text" id="användarNamn"><br>
+                Lösenord: <input type="password" id="lösenOrd">
+    
+                <button onclick="inputFunction()">Logga in</button>
             </div>
-            <div class="rutaTvå">
-                <p>asdasdasdasdkaljfhafhöjlasdhqioöwhasdh ihdoia h dkaj hkj ahd uhe kjhdkja iugajldbas</p>
-            </div>
-            <div class="rutaTre">
-                <p>asdasdasdasdkaljfhafhöjlasdhqioöwhasdh ihdoia h dkaj hkj ahd uhe kjhdkja iugajldbas</p>
-            </div>
-            <div class="rutaFyra">
-                <p>asdasdasdasdkaljfhafhöjlasdhqioöwhasdh ihdoia h dkaj hkj ahd uhe kjhdkja iugajldbas</p>
-            </div>
-        </div>    
+            <button id="loggUt" onclick="loggaUt()" >loggaUt</button>
+        </div>
+        
     </div>
     
 </body>
